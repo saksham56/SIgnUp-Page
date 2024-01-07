@@ -1,4 +1,4 @@
-#SIGN UP PAGE
+## SIGN UP PAGE
 This is a normal SignUp page
 Tech Stack:
 -Mongoose
