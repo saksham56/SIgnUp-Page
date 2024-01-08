@@ -1,4 +1,9 @@
 ## SIGN UP PAGE
+
+
+![Sample Image](https://example.com/image.jpg)
+
+
 This is a normal SignUp page
 <br>
 Tech Stack:

@@ -3,11 +3,12 @@ const app = express();
 const {CreateSignup} =require("./type");
 const {signup} = require("./db");
 const cors = require("cors");
+const {userMiddleware} = require("./signupMdlewar")
 app.use(cors());
 
 app.use(express.json());
 
-app.post("/signup",async function(req,res){
+app.post("/signup",userMiddleware,async function(req,res){
     const createPayload = req.body;
     const parsedPayload = CreateSignup.safeParse(createPayload);
 
