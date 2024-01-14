@@ -1,7 +1,7 @@
 ## SIGN UP PAGE
 
 
-![Sample Image](https://example.com/image.jpg)
+![Sample Image]("./Screenshot 2024-01-07 at 19.06.26.png")
 
 
 This is a normal SignUp page
