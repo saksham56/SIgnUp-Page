@@ -1,7 +1,7 @@
 ## SIGN UP PAGE
 
 
-![Image](https://drive.google.com/file/d/1Ugh-mhp9fggQRYvtQZvQqRH6OLrxXeKH/view?usp=share_link)
+![Image](images/image.png)
 
 
 This is a normal SignUp page
