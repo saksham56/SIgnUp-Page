@@ -1,8 +1,13 @@
+require('dotenv').config();
+
 const mongoose = require("mongoose");
-mongoose.connect("mongodb+srv://admin:OHp5uOrmqP7acYNo@cluster0.d9l2cqe.mongodb.net/sign-up");
+
+console.log()
+mongoose.connect(process.env.URI);
 
 const signupSchema = mongoose.Schema({
-    username : String,
+    username:String,
+    email : String,
     password : String
 })
 

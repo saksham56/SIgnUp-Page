@@ -1,7 +1,8 @@
 import { useState } from "react";
-import  "./Createsign.css";
+import  "./css/Createsign.css";
 export function Createsign(){
 
+    const [email,setEmail] = useState("")
     const [username,setUsername] = useState("")
     const [password,setPassword] = useState("")
 
@@ -12,16 +13,16 @@ export function Createsign(){
         className="signup-image"
       />
 
-
-
         <div className="signup-form">
         <h2>Sign Up</h2>
 
-
         {/* <form > */}
-
-      <input placeholder='username' id="username" type='text' onChange={(e)=>{
+        <input placeholder='username' id="username" type='text' onChange={(e)=>{
         setUsername(e.target.value)
+      }}></input><br /><br />
+
+      <input placeholder='email' id="username" type='text' onChange={(e)=>{
+        setEmail(e.target.value)
       }}></input><br /><br />
 
 
@@ -34,10 +35,12 @@ export function Createsign(){
         fetch("http://localhost:3000/signup",{
             method:"POST",
             body: JSON.stringify({
-                username :username,
+                username:username,
+                email :email,
                 password :password
             }),
             headers:{
+                "authorizationn" : "",
                 "Content-type":"application/json"
             }
         })
