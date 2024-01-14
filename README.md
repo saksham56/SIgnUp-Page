@@ -1,7 +1,7 @@
 ## SIGN UP PAGE
 
 
-![Image](Screenshot 2024-01-07 at 19.06.26.png)
+![Image](https://drive.google.com/file/d/1Ugh-mhp9fggQRYvtQZvQqRH6OLrxXeKH/view?usp=share_link)
 
 
 This is a normal SignUp page
